@@ -1,0 +1,13 @@
+.contenedor{
+    width: $anchoContenedorCarta;
+    height: $altoCantenedorCarta;
+    background-color: $colorContenedorCarta;
+    -webkit-box-shadow: 26px 3px 34px 3px rgba(117,36,117,0.53);
+    -moz-box-shadow: 26px 3px 34px 3px rgba(117,36,117,0.53);
+    box-shadow: 26px 3px 34px 3px rgba(117,36,117,0.53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}

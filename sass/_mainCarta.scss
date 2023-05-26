@@ -1,0 +1,20 @@
+.mainCarta{
+    width: 25rem;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 3.5rem;
+    .mainAños,.mainMeses,.mainDias{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        font-weight:800;
+        font-size: 4rem;
+        h3{
+            color: white;
+            font-size: 5rem;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/main.js" defer></script>
+    <link rel="stylesheet" href="/sass/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/sass/estilo.css">
+    <title>Contador de tiempo</title>
+</head>
+<body>
+    <!-- contenedor para el contador tipo carta -->
+    <section class="contenedor">
+        <!-- seccion para la parte superior de la carta contador -->
+        <section class="headerCarta">
+            <!-- seccion para la parte de dias en numero -->
+            <article>
+                <p>Dias</p>
+                    <input id="inputDias" class="inputDias"  type="text" placeholder="--">
+            </article>
+            <!-- seccion para la parte de meses en numeros  -->
+            <article >
+                <p>Meses</p>
+                    <input id="inputMeses" class="inputMeses"  type="text" placeholder="--">
+            </article>
+            <!-- seccion para la parte de años en numeros -->
+            <article>
+                <p>Años</p>
+                    <input id="inputAños" class="inputAños"  type="text" placeholder="--">
+            </article>
+        </section>
+        <!-- seccion para boton -->
+        <section class="mainBoton">
+            <input id="mainBoton" type="button" value="Calcular" onclick="mostrarValores()"></input>
+        </section>
+        <!-- seccion para la parte donde se veran reflejado el conteo -->
+        <section class="mainCarta">
+            <!-- seccion donde se veran reflejados los años -->
+            <article class="mainAños">
+                <h3 id="parrafoAños">--</h3>
+                <p>years</p>
+            </article>
+            <!-- seccion donde se veran reflejados los meses -->
+            <article class="mainMeses">
+                <h3 id="parrafoMeses" >--</h3>
+                <p>meses</p>
+            </article>
+            <!-- seccion donde se veran reflejados ños dias -->
+            <article class="mainDias">
+                <h3 id="parrafoDias" >--</h3>
+                <p>dias</p>
+            </article>
+        </section>
+    </section>
+</body>
+</html>

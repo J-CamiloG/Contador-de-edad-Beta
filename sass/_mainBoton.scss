@@ -1,0 +1,13 @@
+.mainBoton{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: $colorMainBoton;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    input{
+        cursor: pointer;
+    }
+}
